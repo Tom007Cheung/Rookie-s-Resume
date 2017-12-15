@@ -1,0 +1,26 @@
+body {
+	position: relative;
+}
+
+footer {
+	text-align: center;
+}
+
+nav.navbar ul.navbar-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-color: lightblue;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+	display: inline;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-decoration: none;
+}
