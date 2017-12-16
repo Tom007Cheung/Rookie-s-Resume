@@ -1,0 +1,49 @@
+body {
+	position: relative;
+	margin:0;
+	background-color:rgb(12, 187, 166);
+}
+
+nav.navbar ul.navbar-nav {
+	list-style-type: none;
+	display: block;
+	margin:auto;
+	padding:0;
+	text-align:right;
+	position:fixed;
+	background-color: lightblue;
+	width: 100%;
+	height: 30px;
+	top: 0;
+	overflow: hidden;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+	display: inline;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-decoration: none;
+}
+
+#content {
+	width:80%;
+	margin:auto;
+	background-color:rgb(202, 204, 194);
+}
+
+#about {
+	text-align:center;
+}
+
+#contact {
+	text-align:center;
+	color:rgb(49, 19, 193);
+}
+
+footer {
+	display:block;
+	text-align:center;
+	fixed: relative;
+	background-color:rgb(205, 14, 77);
+}
