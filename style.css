@@ -1,0 +1,76 @@
+body {
+	position: relative;
+	margin:0;
+	background-color:rgb(12, 187, 166);
+}
+
+nav.navbar ul.navbar-nav {
+	list-style-type: none;
+	display: block;
+	margin:0 40px 0 0;
+	padding:0;
+	text-align:right;
+	position:fixed;
+	background-color: lightblue;
+	width: 100%;
+	height: auto;
+	top: 0;
+	overflow: hidden;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+	font-weight:bold;
+	font-size:15px;
+	display: inline;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a:hover {
+	color:white;
+	background-color:rgb(62, 66, 65);
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+	text-decoration: none;
+	padding:10px 10px 0px 10px;
+}
+
+#content {
+	width:80%;
+	height:auto;
+	margin:auto;
+	padding:0;
+}
+
+#about {
+	text-align:center;
+	background-color:rgb(76, 181, 187);
+}
+
+.myPhoto img {
+	margin-top: 50px;
+	width: 10%;
+	height: 10%;
+}
+
+.Background p{
+	text-align:center;
+}
+
+#journey {
+	text-align:center;
+	background-color:rgb(64, 172, 191);
+}
+
+#contact {
+	text-align:center;
+	background-color:rgb(52, 170, 159);
+	color:rgb(49, 19, 193);
+}
+
+footer {
+	display:block;
+	text-align:center;
+	width: 100%;
+	position: relative;
+	background-color:rgb(205, 14, 77);
+}
