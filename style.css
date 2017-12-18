@@ -38,12 +38,15 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link {
 	width:80%;
 	height:auto;
 	margin:auto;
+	margin-top: 25px;
 	padding:0;
 }
 
 #about {
 	text-align:center;
 	background-color:rgb(76, 181, 187);
+	border: 2px white solid;
+	border-radius: 10px;
 }
 
 .myPhoto img {
@@ -59,12 +62,20 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link {
 #journey {
 	text-align:center;
 	background-color:rgb(64, 172, 191);
+	border: 2px white solid;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
 }
 
 #contact {
 	text-align:center;
 	background-color:rgb(52, 170, 159);
 	color:rgb(49, 19, 193);
+	border: 2px white solid;
+	border-radius: 10px;
 }
 
 footer {
